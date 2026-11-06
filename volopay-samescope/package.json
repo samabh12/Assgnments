@@ -1,0 +1,35 @@
+{
+  "name": "samescope",
+  "version": "1.0.0",
+  "description": "SameScope: Claude writes the scope of work, local contractors quote on it. No AI inside.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/setup.mjs && next build",
+    "start": "next start",
+    "db:setup": "node scripts/setup.mjs",
+    "db:reset": "node scripts/setup.mjs --reset"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "bcryptjs": "^3.0.3",
+    "next": "^16.4.5",
+    "postgres": "^4.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
